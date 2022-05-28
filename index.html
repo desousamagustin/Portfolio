@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="img/other/personal-logo.ico">
+    <meta name="description" content="Ingeniería,ingenieria,agustin de sousa mariano,de sousa,programador,ingeniero de software,portfolio,programacion,programación">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Agustín De Sousa Mariano - Estudiante de Ingeniería en Sistemas de Información</title>
+</head>
+<body id="body">
+    <header class="mobile-header">
+        <div class="mobile-header__container">
+            <div class="header-container__logo-container">
+                <img src="img/other/personal-logo.png" alt="personal-logo">
+            </div>
+            <div class="header-container__bars-icon-container">
+                <i class="fa-solid fa-bars bars-icon"></i>
+            </div>
+        </div>
+
+        <nav class="mobile-header__nav">
+            <ul class="mobile-nav__links">
+                <li class="mobile-links__link"><i class="fa-solid fa-house nav-link-icon"></i><a href="#" class="mobile-links__a" id="home__link"> Inicio</a></li>
+                <li class="mobile-links__link"><i class="fa-solid fa-user nav-link-icon"></i><a href="#" class="mobile-links__a" id="about-me__link"> Sobre mí</a></li>
+                <li class="mobile-links__link"><i class="fa-solid fa-laptop-code nav-link-icon"></i><a href="#" class="mobile-links__a" id="skillset__link"> Conocimientos</a></li>
+                <li class="mobile-links__link"><i class="fa-solid fa-folder nav-link-icon"></i><a href="#" class="mobile-links__a" id="projects__link"> Proyectos</a></li>
+                <li class="mobile-links__link"><i class="fa-solid fa-id-card nav-link-icon"></i><a href="#" class="mobile-links__a" id="contact__link"> Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section id="home" class="section-container">
+            <h1 class="home__title">¡Bienvenido!</h1>
+            <div class="home__links-container">
+                <a href="files/CV Agustín De Sousa Mariano - Español.pdf" class="home__link" target="_blank">Ver CV</a>
+                <a href="" class="home__link" target="_blank">Visitar mi blog</a>
+            </div>
+        </section>
+
+        <section id="about-me" class="section-container">
+            <h2 class="about-me__title">Sobre mí</h2>
+            <div class="about-me__info-container">
+                <div class="about-me__img-container">
+                    <img src="img/other/me.png" alt="foto personal">
+                </div>
+                <p class="about-me__description">
+                    Hola, mi nombre es Agustín. Soy estudiante de Ingeniería en sistemas de información en la Universidad Tecnológica Nacional (U.T.N).
+                    Actualmente, me encuentro aprendiendo tecnologías de forma autodidacta para así poder complementar con el conocimiento que voy adquiriendo
+                    en la facultad. Me encanta la tecnología y espero, en un futuro, poder utilizar mi conocimiento, para así, lograr un cambio positivo en la
+                    sociedad. 
+                </p>
+            </div>
+        </section>
+
+        <section id="skillset" class="section-container">
+            <h2 class="skillset__title">Conocimientos</h2>
+            <ul class="skillset__skills-container">
+                <li class="skills-container__item special-item"><i class="fa-solid fa-circle-chevron-right skillset-arrow-icon"></i><h3 class="skills__subtitle">Front-End</h3></li>
+                <li class="skills-container__item"><div class="skill__img-container"><img src="img/skillset/html-5.png" alt="html5"></div><h4 class="skill__title">HTML5</h4></li>
+                <li class="skills-container__item"><div class="skill__img-container"><img src="img/skillset/css-3.png" alt="css3"></div><h4 class="skill__title">CSS3</h4></li>
+                <li class="skills-container__item"><div class="skill__img-container"><img src="img/skillset/js.png" alt="javascript"></div><h4 class="skill__title">JavaScript</h4></li>
+
+                <li class="skills-container__item special-item"><i class="fa-solid fa-circle-chevron-right skillset-arrow-icon"></i><h3 class="skills__subtitle">Back-End</h3></li>
+                <li class="skills-container__item"><div class="skill__img-container"><img src="img/skillset/cplusplus.png" alt="c++"></div><h4 class="skill__title">C++</h4></li>
+                <li class="skills-container__item"><div class="skill__img-container"><img src="img/skillset/java.png" alt="java"></div><h4 class="skill__title">Java</h4></li>
+
+                <li class="skills-container__item special-item"><i class="fa-solid fa-circle-chevron-right skillset-arrow-icon"></i><h3 class="skills__subtitle">Otras herramientas</h3></li>
+                <li class="skills-container__item"><div class="skill__img-container"><img src="img/skillset/git.png" alt="git"></div><h4 class="skill__title">Git</h4></li>
+                <li class="skills-container__item"><div class="skill__img-container"><img src="img/skillset/github.png" alt="github"></div><h4 class="skill__title">GitHub</h4></li>
+                <li class="skills-container__item"><div class="skill__img-container"><img src="img/skillset/laptop.png" alt="reparacion de PC"></div><h4 class="skill__title">Reparación y mantenimiento de PC</h4></li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section-container">
+            <div class="project-section__container">
+                <h2 class="projects__title">Proyectos</h2>
+                <div class="projects__projects-container">
+
+                    <!-- Calculator project -->
+                    <div class="projects-container__project">
+                        <div class="project__img-container">
+                            <img src="img/projects/calculator.png" alt="Proyecto calculadora">
+                        </div>
+                        <h3 class="project__title">Calculadora</h3>
+                        <p class="project__description">
+                            Calculadora básica para realizar operaciones aritméticas básicas. 
+                            En un futuro iré agregando nuevas funcionalidades.
+                        </p>
+                        <div class="project__links-container">
+                            <a href="https://github.com/desousamagustin/Calculator" class="project__link" target="_blanck"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://desousamagustin.github.io/Calculator/" class="project__link" target="_blanck"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <!-- To-Do List project -->
+                    <div class="projects-container__project">
+                        <div class="project__img-container">
+                            <img src="img/projects/to-do-list.jpg" alt="Proyecto To-Do List">
+                        </div>
+                        <h3 class="project__title">To-Do List</h3>
+                        <p class="project__description">
+                            Una To-Do List común y corriente donde podrás anotar todas tus
+                            responsabilidades y luego marcar aquellas cumplidas
+                        </p>
+                        <div class="project__links-container">
+                            <a href="https://github.com/desousamagustin/To-do-List" class="project__link" target="_blanck"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://desousamagustin.github.io/To-do-List/" class="project__link" target="_blanck"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <!-- Blog project -->
+                    <div class="projects-container__project">
+                        <div class="project__img-container">
+                            <img src="img/projects/blog.jpg" alt="Proyecto calculadora">
+                        </div>
+                        <h3 class="project__title">Blog personal</h3>
+                        <p class="project__description">
+                            Blog personal donde subo mis propios blogs con temática de tecnología y
+                            recursos que considero útiles e interesantes para aprender algo nuevo.
+                        </p>
+                        <div class="project__links-container">
+                            <a href="#" class="project__link" target="_blanck"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" class="project__link" target="_blanck"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-container">
+            <h2 class="contact__title">Contacto</h2>
+            <form action="https://formspree.io/f/mlezzern" class="contact__form" method="POST">
+                <h2 class="form__title">Formulario de contacto</h2>
+                <input type="text" placeholder="Nombre" name="Name" required class="contact__input">
+                <input type="text" placeholder="Apellido" name="Lastname" required class="contact__input">
+                <input type="email" name="E-mail" placeholder="E-mail" required class="contact__input">
+                <input type="text" name="Subject" placeholder="Asunto" required class="contact__input">
+                <textarea name="Message" placeholder="Mensaje" required class="contact__input input__text-area"></textarea>
+                <input type="submit" value="Enviar" class="contact__button">
+            </form>
+
+            <div class="contact__social-media-container">
+                <a href="https://twitter.com/dsmagustin7" class="contact__social-media-icon" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/desousamagustin/?hl=en" class="contact__social-media-icon" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/dsmagustin/" class="contact__social-media-icon" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/desousamagustin" class="contact__social-media-icon" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:contactoagustindesousa@gmail.com" class="contact__social-media-icon" target="_blank"><i class="fa-solid fa-square-envelope"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2 class="footer__title">Por <span style="color: rgb(0, 140, 255);">Agustín De Sousa Mariano</span>. &copy;2022.</h2>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/navBarLaunching.js"></script>
+    <script src="scripts/sectionsLaunching.js"></script>
+</body>
+</html>

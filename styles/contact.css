@@ -1,0 +1,123 @@
+#contact {
+    padding: 30px 0;
+    display: none;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+}
+
+.contact__title {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact__form {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.form__title {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(0, 140, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact__input {
+    width: 100%;
+    height: 40px;
+    margin: 5px 0;
+    padding-left: 5px;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 1px solid rgba(51, 51, 51,0.3);
+    outline: none;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact__input::placeholder {
+    color: rgba(160, 160, 160,0.7);
+}
+
+.input__text-area {
+    height: 100px;
+    resize: none;
+}
+
+.contact__button {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    margin: 10px 0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(0, 140, 255);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact__social-media-container {
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: 0 solid;
+}
+
+.contact__social-media-icon {
+    padding: 0 10px;
+    font-size: 27px;
+}
+
+@media screen and (min-height:740px) and (max-width:414px) {
+    #contact {
+        height: calc(100vh - 60px);
+    }
+
+    .contact__form {
+        padding: 25px 20px;
+    }
+    
+    .form__title {
+        font-size: 25px;
+    }
+    
+    .contact__input {
+        width: 100%;
+        height: 45px;
+        margin: 7px 0;
+        font-size: 13px;
+    }
+    
+    .input__text-area {
+        height: 110px;
+    }
+    
+    .contact__button {
+        padding: 12px 0;
+        margin: 12px 0;
+        font-size: 16px;
+    }
+    
+    .contact__social-media-container {
+        margin-top: 20px;
+    }
+    
+    .contact__social-media-icon {
+        padding: 0 10px;
+        font-size: 30px;
+    }
+}
