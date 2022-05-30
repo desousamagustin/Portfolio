@@ -28,7 +28,7 @@
     display: flex;
     padding: 5px 0;
     margin: 10px 0;
-    border: 0 solid;
+    border-radius: 5px;
 }
 
 .special-item {
@@ -39,15 +39,16 @@
 }
 
 .skills__subtitle {
-    width: 90%;
+    width: auto;
     height: auto;
     font-size: 18px;
     color: #fff;
 }
 
 .skillset-arrow-icon {
-    width: 10%;
+    width: auto;
     height: auto;
+    margin-right: 10px;
     font-size: 19px;
     color: #fff;
 }
@@ -69,4 +70,45 @@
     align-items: center;
     font-size: 15px;
     color: #fff;
+}
+
+@media screen and (min-width:768px) {
+    .skillset__title {
+        font-size: 45px;
+    }
+
+    .skillset__skills-container {
+        width: 80%;
+    }
+
+    .skills-container__item:hover {
+        background-color: rgba(250, 250, 250,0.1);
+    }
+
+    .special-item:hover {
+        padding: 12px 10px;
+        background-color: rgba(250, 250, 250,0.1);
+    }
+
+    .special-item {
+        padding: 12px 10px;
+    }
+
+    .skills__subtitle {
+        font-size: 20px;
+    }
+    
+    .skillset-arrow-icon {
+        font-size: 20px;
+    }
+
+    .skill__img-container {
+        width: 60px;
+        height: 60px;
+    }
+
+    .skill__title {
+        width: 60%;
+        font-size: 16px;
+    }
 }

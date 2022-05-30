@@ -23,11 +23,11 @@
 
         <nav class="mobile-header__nav">
             <ul class="mobile-nav__links">
-                <li class="mobile-links__link"><i class="fa-solid fa-house nav-link-icon"></i><a href="#" class="mobile-links__a" id="home__link"> Inicio</a></li>
-                <li class="mobile-links__link"><i class="fa-solid fa-user nav-link-icon"></i><a href="#" class="mobile-links__a" id="about-me__link"> Sobre mí</a></li>
-                <li class="mobile-links__link"><i class="fa-solid fa-laptop-code nav-link-icon"></i><a href="#" class="mobile-links__a" id="skillset__link"> Conocimientos</a></li>
-                <li class="mobile-links__link"><i class="fa-solid fa-folder nav-link-icon"></i><a href="#" class="mobile-links__a" id="projects__link"> Proyectos</a></li>
-                <li class="mobile-links__link"><i class="fa-solid fa-id-card nav-link-icon"></i><a href="#" class="mobile-links__a" id="contact__link"> Contacto</a></li>
+                <li class="mobile-links__link"><a href="#" class="mobile-links__a" id="home__link">Inicio</a></li>
+                <li class="mobile-links__link"><a href="#" class="mobile-links__a" id="about-me__link">Sobre mí</a></li>
+                <li class="mobile-links__link"><a href="#" class="mobile-links__a" id="skillset__link">Conocimientos</a></li>
+                <li class="mobile-links__link"><a href="#" class="mobile-links__a" id="projects__link">Proyectos</a></li>
+                <li class="mobile-links__link"><a href="#" class="mobile-links__a" id="contact__link">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -48,7 +48,7 @@
                     <img src="img/other/me.png" alt="foto personal">
                 </div>
                 <p class="about-me__description">
-                    Hola, mi nombre es Agustín. Soy estudiante de Ingeniería en sistemas de información en la Universidad Tecnológica Nacional (U.T.N).
+                    Hola, mi nombre es Agustín. Soy estudiante de Ingeniería en sistemas de información</span> en la Universidad Tecnológica Nacional (U.T.N).
                     Actualmente, me encuentro aprendiendo tecnologías de forma autodidacta para así poder complementar con el conocimiento que voy adquiriendo
                     en la facultad. Me encanta la tecnología y espero, en un futuro, poder utilizar mi conocimiento, para así, lograr un cambio positivo en la
                     sociedad. 
@@ -87,8 +87,7 @@
                         </div>
                         <h3 class="project__title">Calculadora</h3>
                         <p class="project__description">
-                            Calculadora básica para realizar operaciones aritméticas básicas. 
-                            En un futuro iré agregando nuevas funcionalidades.
+                            Calculadora para realizar operaciones aritméticas básicas. 
                         </p>
                         <div class="project__links-container">
                             <a href="https://github.com/desousamagustin/Calculator" class="project__link" target="_blanck"><i class="fa-brands fa-github"></i></a>
@@ -102,8 +101,8 @@
                         </div>
                         <h3 class="project__title">To-Do List</h3>
                         <p class="project__description">
-                            Una To-Do List común y corriente donde podrás anotar todas tus
-                            responsabilidades y luego marcar aquellas cumplidas
+                            To-Do List donde podrás anotar todas tus
+                            responsabilidades y luego marcar aquellas cumplidas. (Próximamente)
                         </p>
                         <div class="project__links-container">
                             <a href="https://github.com/desousamagustin/To-do-List" class="project__link" target="_blanck"><i class="fa-brands fa-github"></i></a>
@@ -117,8 +116,8 @@
                         </div>
                         <h3 class="project__title">Blog personal</h3>
                         <p class="project__description">
-                            Blog personal donde subo mis propios blogs con temática de tecnología y
-                            recursos que considero útiles e interesantes para aprender algo nuevo.
+                            Blog personal donde escribo con temática de tecnología y
+                            comparto recursos que considero útiles e interesantes para aprender. (Próximamente)
                         </p>
                         <div class="project__links-container">
                             <a href="#" class="project__link" target="_blanck"><i class="fa-brands fa-github"></i></a>
@@ -134,11 +133,11 @@
             <h2 class="contact__title">Contacto</h2>
             <form action="https://formspree.io/f/mlezzern" class="contact__form" method="POST">
                 <h2 class="form__title">Formulario de contacto</h2>
-                <input type="text" placeholder="Nombre" name="Name" required class="contact__input">
-                <input type="text" placeholder="Apellido" name="Lastname" required class="contact__input">
-                <input type="email" name="E-mail" placeholder="E-mail" required class="contact__input">
-                <input type="text" name="Subject" placeholder="Asunto" required class="contact__input">
-                <textarea name="Message" placeholder="Mensaje" required class="contact__input input__text-area"></textarea>
+                <input type="text" placeholder="Nombre*" name="Name" required class="contact__input">
+                <input type="text" placeholder="Apellido*" name="Lastname" required class="contact__input">
+                <input type="email" name="E-mail" placeholder="E-mail*" required class="contact__input">
+                <input type="text" name="Subject" placeholder="Asunto*" required class="contact__input">
+                <textarea name="Message" placeholder="Mensaje*" required class="contact__input input__text-area"></textarea>
                 <input type="submit" value="Enviar" class="contact__button">
             </form>
 
