@@ -85,12 +85,6 @@
         margin-right: 20px;
     }
 
-    .header-container__logo-container img:hover {
-        transform: scale(0.95);
-        transition: 0.1s;
-        cursor: pointer;
-    }
-
     .bars-icon:hover {
         transform: scale(0.93);
         transition: 0.1s;

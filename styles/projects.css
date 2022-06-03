@@ -1,6 +1,8 @@
 #projects {
     display: none;
     background-color: rgb(233, 233, 233);
+    height: calc(100vh - 60px);
+    overflow-y: auto;
 }
 
 .project-section__container {
