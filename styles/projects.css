@@ -95,7 +95,7 @@
     .projects__projects-container {
         width: 90%;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: row;
         border: 0 solid;
     }

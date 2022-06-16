@@ -12,13 +12,15 @@ var contactLink = document.getElementById("contact__link");
 
 var sectionsList = [homeSection,aboutMeSection,skillsetSection,projectsSection,contactSection];
 
+var screenSize = window.innerWidth;
+
 function updateSections(aSection) {
     sectionsList.forEach(section => {section.style.display="none";});
     aSection.style.display="flex";
     body.style.overflowY="auto";
 }
 
-document.querySelectorAll(".mobile-links__a").forEach( link => {
+document.querySelectorAll(".links__a").forEach( link => {
     link.addEventListener("click", () => {
         switch(link) {
             case homeLink:
@@ -41,10 +43,12 @@ document.querySelectorAll(".mobile-links__a").forEach( link => {
                 updateSections(contactSection);
                 break;
         }
-        
-        barsIcon.classList.remove("fa-xmark");
-        barsIcon.classList.add("fa-bars");
-        navBar.style.display="none";
-        navBarStatus = false;
+
+        if(screenSize < 768) {
+            barsIcon.classList.remove("fa-xmark");
+            barsIcon.classList.add("fa-bars");
+            navBar.style.display="none";
+            navBarStatus = false;
+        }
     });
 });

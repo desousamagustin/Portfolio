@@ -1,5 +1,5 @@
 var barsIcon = document.querySelector(".bars-icon");
-var navBar = document.querySelector(".mobile-header__nav");
+var navBar = document.querySelector(".header__nav");
 var navBarStatus = false;
 var body = document.getElementById("body");
 

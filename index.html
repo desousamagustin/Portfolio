@@ -11,8 +11,8 @@
     <title>Agustín De Sousa Mariano - Estudiante de Ingeniería en Sistemas de Información</title>
 </head>
 <body id="body">
-    <header class="mobile-header">
-        <div class="mobile-header__container">
+    <header class="header">
+        <div class="header__container">
             <div class="header-container__logo-container">
                 <img src="img/other/personal-logo.png" alt="personal-logo">
             </div>
@@ -21,13 +21,23 @@
             </div>
         </div>
 
-        <nav class="mobile-header__nav">
-            <ul class="mobile-nav__links">
-                <li class="mobile-links__link"><a href="#" class="mobile-links__a" id="home__link">Inicio</a></li>
-                <li class="mobile-links__link"><a href="#" class="mobile-links__a" id="about-me__link">Sobre mí</a></li>
-                <li class="mobile-links__link"><a href="#" class="mobile-links__a" id="skillset__link">Conocimientos</a></li>
-                <li class="mobile-links__link"><a href="#" class="mobile-links__a" id="projects__link">Proyectos</a></li>
-                <li class="mobile-links__link"><a href="#" class="mobile-links__a" id="contact__link">Contacto</a></li>
+        <nav class="header__nav">
+            <ul class="nav__links">
+                <li class="links__link">
+                    <a href="#" class="links__a" id="home__link"><i class="fa-solid fa-house nav__icon"></i>Inicio</a>
+                </li>
+                <li class="links__link">
+                    <a href="#" class="links__a" id="about-me__link"><i class="fa-solid fa-user nav__icon"></i>Sobre mí</a>
+                </li>
+                <li class="links__link">
+                    <a href="#" class="links__a" id="skillset__link"><i class="fa-solid fa-pen nav__icon"></i> Conocimientos</a>
+                </li>
+                <li class="links__link">
+                    <a href="#" class="links__a" id="projects__link"><i class="fa-solid fa-folder-closed nav__icon"></i>Proyectos</a>
+                </li>
+                <li class="links__link">
+                    <a href="#" class="links__a" id="contact__link"><i class="fa-solid fa-address-book nav__icon"></i> Contacto</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -37,7 +47,6 @@
             <h1 class="home__title">¡Bienvenido!</h1>
             <div class="home__links-container">
                 <a href="files/CV Agustín De Sousa Mariano - Español.pdf" class="home__link" target="_blank">Ver CV</a>
-                <a href="" class="home__link">Visitar mi blog (próximamente)</a>
             </div>
         </section>
 
@@ -94,41 +103,6 @@
                             <a href="https://desousamagustin.github.io/Calculator/" class="project__link" target="_blanck"><i class="fa-solid fa-link"></i></a>
                         </div>
                     </div>
-                    <!-- To-Do List project -->
-                    <!--
-                    <div class="projects-container__project">
-                        <div class="project__img-container">
-                            <img src="img/projects/to-do-list.jpg" alt="Proyecto To-Do List">
-                        </div>
-                        <h3 class="project__title">To-Do List</h3>
-                        <p class="project__description">
-                            To-Do List donde podrás anotar todas tus
-                            responsabilidades y luego marcar aquellas cumplidas. (Próximamente)
-                        </p>
-                        <div class="project__links-container">
-                            <a href="https://github.com/desousamagustin/To-do-List" class="project__link" target="_blanck"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://desousamagustin.github.io/To-do-List/" class="project__link" target="_blanck"><i class="fa-solid fa-link"></i></a>
-                        </div>
-                    </div>
-                    -->
-                    
-                    <!-- Blog project -->
-                    <!--
-                    <div class="projects-container__project">
-                        <div class="project__img-container">
-                            <img src="img/projects/blog.jpg" alt="Proyecto calculadora">
-                        </div>
-                        <h3 class="project__title">Blog personal</h3>
-                        <p class="project__description">
-                            Blog personal donde escribo con temática de tecnología y
-                            comparto recursos que considero útiles e interesantes para aprender. (Próximamente)
-                        </p>
-                        <div class="project__links-container">
-                            <a href="#" class="project__link" target="_blanck"><i class="fa-brands fa-github"></i></a>
-                            <a href="#" class="project__link" target="_blanck"><i class="fa-solid fa-link"></i></a>
-                        </div>
-                    </div>
-                    -->
                 </div>
             </div>
         </section>
@@ -137,11 +111,11 @@
             <h2 class="contact__title">Contacto</h2>
             <form action="https://formspree.io/f/mlezzern" class="contact__form" method="POST">
                 <h2 class="form__title">Formulario de contacto</h2>
-                <input type="text" placeholder="Nombre*" name="Name" required class="contact__input">
-                <input type="text" placeholder="Apellido*" name="Lastname" required class="contact__input">
-                <input type="email" name="E-mail" placeholder="E-mail*" required class="contact__input">
-                <input type="text" name="Subject" placeholder="Asunto*" required class="contact__input">
-                <textarea name="Message" placeholder="Mensaje*" required class="contact__input input__text-area"></textarea>
+                <input type="text" placeholder="Nombre" name="Name" required class="contact__input">
+                <input type="text" placeholder="Apellido" name="Lastname" required class="contact__input">
+                <input type="email" name="E-mail" placeholder="E-mail" required class="contact__input">
+                <input type="text" name="Subject" placeholder="Asunto" required class="contact__input">
+                <textarea name="Message" placeholder="Mensaje" required class="contact__input input__text-area"></textarea>
                 <input type="submit" value="Enviar" class="contact__button">
             </form>
 

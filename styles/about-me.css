@@ -11,6 +11,7 @@
     font-size: 35px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
+    border: 0 solid;
 }
 
 .about-me__info-container {
@@ -41,7 +42,7 @@
     border-radius: 3px;
     font-size: 16px;
     color: #fff;
-    text-align: center;
+    text-align: justify;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -57,7 +58,9 @@
 
 @media screen and (min-width:500px) {
     #about-me {
-        height: calc(100vh - 60px);
+        height: auto;
+        margin-top: 60px;
+        overflow-y: auto;
     }
     
     .about-me__title {
@@ -70,9 +73,15 @@
     }
     
     .about-me__description {
-        width: 80%;
+        width: 40%;
         height: auto;
         padding: 10px 0;
         font-size: 18px;
+    }
+}
+
+@media screen and (min-height:650px) {
+    #about-me {
+        height: calc(100vh - 60px);
     }
 }

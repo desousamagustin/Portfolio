@@ -36,9 +36,8 @@
     height: 40px;
     margin: 5px 0;
     padding-left: 5px;
-    border-radius: 3px;
     border: none;
-    border-bottom: 1px solid rgba(51, 51, 51,0.3);
+    border-bottom: 1px solid rgba(51, 51, 51,0.2);
     outline: none;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
@@ -133,11 +132,7 @@
     }
 
     .contact__input {
-        font-size: 13px;
-    }
-
-    .contact__input:hover {
-        background-color: rgba(228, 228, 228, 0.1);
+        font-size: 12px;
     }
 
     .contact__button:hover {
@@ -150,5 +145,11 @@
         transform: scale(0.95);
         transition: 0.1s;
         cursor: pointer;
+    }
+}
+
+@media screen and (min-height:730px) {
+    #contact {
+        height: calc(100vh - 60px);
     }
 }
