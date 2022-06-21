@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="icon" href="img/other/personal-logo.ico">
-    <meta name="description" content="Ingeniería,ingenieria,agustin de sousa mariano,de sousa,programador,ingeniero de software,portfolio,programacion,programación">
+    <meta name="description" content="Estudiante de Ingeniería en Sistemas de Información en la U.T.N. También, amante de la tecnología en general.">
+    <meta name="keywords" content="Ingeniería,ingenieria,agustin de sousa mariano,de sousa,programador,ingeniero de software,portfolio,programacion,programación">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Agustín De Sousa Mariano - Estudiante de Ingeniería en Sistemas de Información</title>
 </head>
@@ -30,7 +31,7 @@
                     <a href="#" class="links__a" id="about-me__link"><i class="fa-solid fa-user nav__icon"></i>Sobre mí</a>
                 </li>
                 <li class="links__link">
-                    <a href="#" class="links__a" id="skillset__link"><i class="fa-solid fa-pen nav__icon"></i> Conocimientos</a>
+                    <a href="#" class="links__a" id="skillset__link"><i class="fa-solid fa-book nav__icon"></i> Conocimientos</a>
                 </li>
                 <li class="links__link">
                     <a href="#" class="links__a" id="projects__link"><i class="fa-solid fa-folder-closed nav__icon"></i>Proyectos</a>
@@ -52,32 +53,54 @@
 
         <section id="about-me" class="section-container">
             <h2 class="about-me__title">Sobre mí</h2>
-            <div class="about-me__info-container">
-                <div class="about-me__img-container">
-                    <img src="img/other/me.png" alt="foto personal">
-                </div>
-                <p class="about-me__description">
-                    Hola, mi nombre es Agustín. Soy estudiante de Ingeniería en sistemas de información</span> en la Universidad Tecnológica Nacional (U.T.N).
-                    Actualmente, me encuentro aprendiendo tecnologías de forma autodidacta para así poder complementar con el conocimiento que voy adquiriendo
-                    en la facultad. Me encanta la tecnología y espero, en un futuro, poder utilizar mi conocimiento, para así, lograr un cambio positivo en la
-                    sociedad. 
-                </p>
+            <div class="about-me__supra-container">
+                <article class="about-me__container">
+                    <div class="about-me__img-container">
+                        <img src="img/other/me.png" alt="foto personal">
+                    </div>
+                    <p class="about-me__description">
+                        Hola, mi nombre es Agustín. Soy estudiante de Ingeniería en sistemas de información</span> en la Universidad Tecnológica Nacional (U.T.N).
+                        Actualmente, me encuentro aprendiendo tecnologías de forma autodidacta para así poder complementar con el conocimiento que voy adquiriendo
+                        en la facultad. Me encanta la tecnología y espero, en un futuro, poder utilizar mi conocimiento, para así, lograr un cambio positivo en la
+                        sociedad. 
+                    </p>
+                </article>
+    
+                <article class="about-me__container second-container">
+                    <form action="https://formspree.io/f/mlezzern" class="about-me__form" method="POST">
+                        <h2 class="about-me__form-title">Formulario de contacto</h2>
+                        <input type="text" placeholder="Nombre" name="Name" required class="about-me__input">
+                        <input type="text" placeholder="Apellido" name="Lastname" required class="about-me__input">
+                        <input type="email" name="E-mail" placeholder="E-mail" required class="about-me__input">
+                        <input type="text" name="Subject" placeholder="Asunto" required class="about-me__input">
+                        <textarea name="Message" placeholder="Mensaje" required class="about-me__input about-me__input-text-area"></textarea>
+                        <input type="submit" value="Enviar" class="about-me__button">
+                    </form>
+        
+                    <div class="about-me__social-media-container">
+                        <a href="https://twitter.com/dsmagustin7" class="about-me_social-media-icon" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/desousamagustin/?hl=en" class="about-me_social-media-icon" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/dsmagustin/" class="about-me_social-media-icon" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/desousamagustin" class="about-me_social-media-icon" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:contactoagustindesousa@gmail.com" class="about-me_social-media-icon" target="_blank"><i class="fa-solid fa-square-envelope"></i></a>
+                    </div>
+                </article>
             </div>
         </section>
 
         <section id="skillset" class="section-container">
             <h2 class="skillset__title">Conocimientos</h2>
             <ul class="skillset__skills-container">
-                <li class="skills-container__item special-item"><i class="fa-solid fa-circle-chevron-right skillset-arrow-icon"></i><h3 class="skills__subtitle">Front-End</h3></li>
+                <li class="skills-container__item special-item"><i class="fa-solid fa-circle-chevron-right skillset-arrow-icon"></i><h3 class="skills__subtitle">Tecnologías Front-End</h3></li>
                 <li class="skills-container__item"><div class="skill__img-container"><img src="img/skillset/html-5.png" alt="html5"></div><h4 class="skill__title">HTML5</h4></li>
                 <li class="skills-container__item"><div class="skill__img-container"><img src="img/skillset/css-3.png" alt="css3"></div><h4 class="skill__title">CSS3</h4></li>
                 <li class="skills-container__item"><div class="skill__img-container"><img src="img/skillset/js.png" alt="javascript"></div><h4 class="skill__title">JavaScript</h4></li>
 
-                <li class="skills-container__item special-item"><i class="fa-solid fa-circle-chevron-right skillset-arrow-icon"></i><h3 class="skills__subtitle">Back-End</h3></li>
+                <li class="skills-container__item special-item"><i class="fa-solid fa-circle-chevron-right skillset-arrow-icon"></i><h3 class="skills__subtitle">Tecnologías Back-End</h3></li>
                 <li class="skills-container__item"><div class="skill__img-container"><img src="img/skillset/cplusplus.png" alt="c++"></div><h4 class="skill__title">C++</h4></li>
                 <li class="skills-container__item"><div class="skill__img-container"><img src="img/skillset/java.png" alt="java"></div><h4 class="skill__title">Java</h4></li>
 
-                <li class="skills-container__item special-item"><i class="fa-solid fa-circle-chevron-right skillset-arrow-icon"></i><h3 class="skills__subtitle">Otras herramientas</h3></li>
+                <li class="skills-container__item special-item"><i class="fa-solid fa-circle-chevron-right skillset-arrow-icon"></i><h3 class="skills__subtitle">Otros conocimientos</h3></li>
                 <li class="skills-container__item"><div class="skill__img-container"><img src="img/skillset/git.png" alt="git"></div><h4 class="skill__title">Git</h4></li>
                 <li class="skills-container__item"><div class="skill__img-container"><img src="img/skillset/github.png" alt="github"></div><h4 class="skill__title">GitHub</h4></li>
                 <li class="skills-container__item"><div class="skill__img-container"><img src="img/skillset/laptop.png" alt="reparacion de PC"></div><h4 class="skill__title">Reparación y mantenimiento de PC</h4></li>

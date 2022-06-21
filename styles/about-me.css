@@ -14,6 +14,15 @@
     border: 0 solid;
 }
 
+.about-me__container {
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
 .about-me__info-container {
     width: 90%;
     height: auto;
@@ -42,8 +51,12 @@
     border-radius: 3px;
     font-size: 16px;
     color: #fff;
-    text-align: justify;
+    text-align: center;
     font-family: 'Raleway', sans-serif;
+}
+
+.second-container {
+    display: none;
 }
 
 @media screen and (min-height:700px) and (max-width:500px) {
@@ -52,7 +65,7 @@
     }
 
     .about-me__description {
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 
@@ -60,7 +73,6 @@
     #about-me {
         height: auto;
         margin-top: 60px;
-        overflow-y: auto;
     }
     
     .about-me__title {
@@ -83,5 +95,169 @@
 @media screen and (min-height:650px) {
     #about-me {
         height: calc(100vh - 60px);
+    }
+}
+
+@media screen and (min-width:768px) {
+    #about-me {
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+        padding: 30px 0;
+    }
+    
+    .about-me__title {
+        width: 90%;
+        height: auto;
+        text-align: center;
+        font-size: 45px;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        border: 0 solid;
+    }
+
+    .about-me__supra-container {
+        width: 90%;
+        height: auto;
+        margin: 50px 0;
+        display: flex;
+        border: 0 solid #fff;
+    }
+
+    .about-me__container {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .about-me__info-container {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 0 solid;
+    }
+    
+    .about-me__img-container {
+        width: 250px;
+        margin: 15px 0;
+        border: 0 solid;
+    }
+    
+    .about-me__img-container img {
+        width: 100%;
+        border-radius: 3px;
+    }
+
+    .about-me__img-container img:hover {
+        transform: scale(1.02);
+        transition: 0.3s;
+    }
+    
+    .about-me__description {
+        width: 95%;
+        height: auto;
+        padding: 10px;
+        border-radius: 3px;
+        font-size: 15px;
+        color: #fff;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .about-me__form {
+        width: 95%;
+        height: auto;
+        padding: 30px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 3px;
+    }
+
+    .about-me__form-title {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 25px;
+        color: rgb(0, 140, 255);
+    }
+
+    .about-me__input {
+        width: 95%;
+        margin: 5px 0;
+        padding: 10px 10px;
+        border: none;
+        border-bottom: 1px solid rgba(51, 51, 51,0.1);
+        font-size: 11px;
+        outline: none;
+    }
+
+    .about-me__input::placeholder {
+        color: rgba(136, 136, 136,0.6);
+    }
+
+    .about-me__input-text-area {
+        height: 120px;
+        resize: none;
+    }
+
+    .about-me__button {
+        width: 90%;
+        height: 35px;
+        margin-top: 30px;
+        border-radius: 3px;
+        border: none;
+        font-size: 16px;
+        color: #fff;
+        font-weight: bold;
+        background-color:rgb(0, 140, 255);
+    }
+
+    .about-me__button:hover {
+        cursor: pointer;
+        background-color:rgb(0, 153, 255);
+        transform: scale(0.99);
+        transition: 0.1s;
+    }
+
+    .about-me__social-media-container {
+        width: auto;
+        height: auto;
+        margin-top: 25px;
+    }
+
+    .about-me_social-media-icon {
+        font-size: 26px;
+        margin: 0 7px;
+    }
+
+    .about-me_social-media-icon i {
+        color: #fff;
+    }
+
+    .about-me_social-media-icon i:hover {
+        transform: scale(0.97);
+        transition: 0.1s;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .about-me__description {
+        width: 75%;
+        font-size: 17px;
+    }
+
+    .about-me__form {
+        width: 500px;
+        padding: 35px 0;
     }
 }

@@ -78,7 +78,13 @@
 }
 
 .nav__icon {
-    padding-right: 5px;
+    padding-right: 4px;
+    color:rgb(0, 140, 255);
+    font-size: 12px;
+}
+
+.nav__icon-img {
+    width: 15px;
     color:rgb(0, 140, 255);
 }
 
@@ -139,7 +145,11 @@
     }
 
     .links__a:hover {
-        background-color: rgba(0, 140, 255,0.1);
+        background-color: rgba(255, 255, 255,0.03);
+    }
+
+    #contact__link {
+        display: none;
     }
 }
 

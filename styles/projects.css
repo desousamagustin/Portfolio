@@ -101,8 +101,8 @@
     }
 
     .projects-container__project {
-        width: 320px;
-        height: 450px;
+        width: 300px;
+        height: 420px;
         margin: 30px 10px;
     }
 
@@ -129,10 +129,6 @@
     .projects__projects-container {
         width: 80%;
         margin: 30px 0;
-    }
-
-    .projects-container__project {
-        height: 470px;
     }
 
     .projects-container__project:hover {
